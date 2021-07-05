@@ -24,9 +24,10 @@ h2 {
   width: 50%;
   margin-left: 50px;
   padding-left: 100px;
-  box-shadow: 10px 10px 40px rgba(235, 243, 247, 0.829);
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.829);
   opacity: 80%;
   border: 2px;
+  border-radius: 2px;
 }
 .half-width1 {
   width: 50%;
