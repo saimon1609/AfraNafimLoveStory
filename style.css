@@ -1,0 +1,110 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+.pink {
+  color: rgb(124, 19, 37);
+}
+.salmon {
+  color: rgb(105, 7, 233);
+}
+.flex-container {
+  display: flex;
+  margin-bottom: 10px;
+  padding-right: 7%;
+  padding-left: 2%;
+}
+.half-width {
+  width: 50%;
+  margin-left: 50px;
+  padding-left: 100px;
+  box-shadow: 10px 10px 40px rgba(235, 243, 247, 0.829);
+  opacity: 80%;
+  border: 2px;
+}
+.half-width1 {
+  width: 50%;
+  margin-left: 50px;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.half-width-photo img {
+  height: 400px;
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.half-width-photo1 img {
+  height: 700px;
+  width: 700px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.link-button {
+  text-decoration: none;
+  color: black;
+}
+button {
+  background-image: linear-gradient(skyblue, pink);
+  font-weight: 600px;
+  border-radius: 5px;
+  border: 2px solid purple;
+  padding: 5px 20px;
+}
+button:hover {
+  border-color: blue;
+  color: black;
+  background-image: linear-gradient(skyblue, purple);
+}
+.top-banner {
+  background-image: url(images/Circular\ Cutaways\ Tumblr\ Banner.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.america {
+  background-image: url(images/america2.jpg);
+  background-repeat: no-repeat;
+  height: 122vh;
+}
+.Good-times {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 5%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#good-dev-exp {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(0, 128, 117), rgb(221, 255, 71));
+  border-image-slice: 1;
+}
+#bad-dev-exp {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgba(255, 115, 0, 0.884), rgb(0, 255, 55));
+  border-image-slice: 1;
+}
+
+
+footer p {
+  text-align: center;
+}
+#header {
+  text-align: center;
+}
+#footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
